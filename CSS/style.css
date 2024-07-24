@@ -1,0 +1,344 @@
+body{
+    overflow-x:hidden;
+}
+
+.cont{
+    border: 1px solid orange;
+    border-radius:25px;
+    background-color: orange;
+}
+.cont:hover{
+    background-color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#ffa200!important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    width: max-content;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu li:hover{
+    color: #ffa200!important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu li{
+    padding:10px;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+.navbar-toggler-icon {
+    /* display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; */
+    background: whitesmoke;
+}
+/* <-------our services-------------> */
+.offset-2 {
+    margin-left: 12.666667%;
+}
+.card{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.grow{
+    color: #ffa200;
+    font-size: 50px;
+    font-family:serif;
+}
+/* <-------our services End-------------> */
+
+/* <-------Navbar End-------------> */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formborder {
+    border: 2px solid black;
+    padding: 25px;
+    background-color: rgba(224, 222, 222, 0.534);
+    border-radius: 25px;
+    box-shadow: 0 32px 36px rgba(10, 12, 11, 0.6);
+}
+.formate{
+    font-size: 44px;
+    font-family:sans-serif;
+    padding: 80px 92px 25px;
+}
+.busi{
+    font-size: 22px;
+    color: #ffa200 !important;
+    font-family: sans-serif;
+    padding: 0px 94px;
+}
+.btn-danger {
+    color: black;
+    background-color:#ffa200;
+    border-color: #ffa200;
+    font-size: 16px;
+    border-radius: 35px;
+}
+.btn-danger:hover{
+    color: black;
+    background-color:#ffa200;
+    border-color: #ffa200;
+    
+
+}
+.form-label {
+    margin-bottom: 0px !important;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 576px) {
+    .formate {
+        font-size: 31px;
+        font-family: sans-serif;
+        padding: 0px 0px 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .busi {
+        font-size: 18px;
+        color: #ffa200 !important;
+        font-family: sans-serif;
+        padding: 25px 9px 0px;
+        text-align: center;
+    }
+    .btn-danger {
+        color: black;
+        background-color:#ffa200;
+        border-color: #ffa200;
+        font-size: 20px;
+    }
+    .p-5 {
+        padding: 2rem!important;
+    }  
+}
+@media (min-width: 1200px){
+h2 {
+    font-size: 1.5rem;
+}
+}
+/* <-------banner End-------------> */
+
+.vision{
+    padding: 0px 285px;
+}
+.btn-dangers {
+    color: black;
+    background-color:#ffa200;
+    border-color: #ffa200;
+    font-size: 16px;
+    border-radius: 35px;
+    padding: 13px 35px;
+}
+.sectionimg{
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.sectionimg img{
+    width:100%;
+}
+.sectiontopic{
+    color: #ffa200;
+    background:rgba(0, 0, 0,0.8);
+    position: absolute;
+    top:0;
+    left: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 55px;
+    padding-top: 172px;
+    box-sizing: border-box;
+    /* z-index: -999; */
+    transition: all 0.5s;
+}
+.sectionimg:hover .sectiontopic{
+    left: 0;
+}
+@media only screen and (max-width: 576px) {
+    .vision{
+        padding: 0px 5px;    
+    }
+    .outer {
+       padding: 20px;
+    }
+
+}
+.sectionimg {
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.bg-black{
+    background-color: black;
+}
+.animatednumber{
+    background-color: #ffa200;
+    color: white;
+}
+.fa-solid{
+    border-radius: 50%;
+    padding: 23px;
+    font-size: 37px;
+    /* background-color: rgb(231, 243, 245); */
+}
+.fa-solid:hover{
+    background-color: #ffa200;
+}
+.font{
+    font-size: 22px;
+}
+.font2{
+    font-size: 17px;
+}
+@media only screen and (max-width: 576px){
+    .offset-2 {
+        margin-left: 0px;
+    }
+    
+}
+
+.accordion-button:hover {
+    z-index: 3;
+    border-color: #000000;
+    outline: 1;
+    box-shadow: 0 0 0 0.125rem rgb(0 0 0 / 100%);
+}
+.sides{
+    padding-left:335px ;
+}
+
+
+.testimonial-slider {
+    width: 640px; /* Set your desired width here */
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth slide transition */
+  }
+  
+  .slide {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Styling for navigation buttons */
+  .slider-controls {
+    margin-top: 10px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.prev-btn:hover{
+    background-color: #ffa200;
+  }
+  .next-btn:hover{
+    background-color: #ffa200;
+  }
+  button .fa-solid{
+    font-size: 26px;
+    padding: 13px;
+    padding: -2px;
+  }
+  
+  .prev-btn {
+    margin-right: 10px;
+    color:black;
+  }
+  
+  .next-btn {
+    margin-left: 10px;
+    color: black;
+  }
+  .card{
+    width: 300px;
+  }
+
+  @media only screen and (max-width: 576px){
+    .sides{
+        padding-left:40px ;
+    }
+    .testimonial-slider {
+        width: 318px; /* Set your desired width here */
+        overflow: hidden;
+      }
+     
+  }
+.mapcontent{
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.mappara{
+    font-size: 16px;
+}
+@media only screen and (max-width: 576px){
+    .mapcontent{
+        font-size: 45px;
+        font-family:sans-serif;
+        
+    }
+    .mappara{
+        font-size: 25px;
+    }
+}
+@media (min-width:1024px){
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 27%;
+}
+}
+
+ /*------------------for logo slider-------------------- */
+ #owl-demo .item{
+    margin: 30px;
+  }
+   #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  } 
+  /* .owl-carousel .owl-item img {
+    display: block;
+    width: 48% !important;
+} */
